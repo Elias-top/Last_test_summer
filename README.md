@@ -59,5 +59,5 @@ static void PrintArrayToConsole(string[] array)
     Console.WriteLine();
 }
 ```
-
+### Результат вывода программы: ["-2", "mam", "i", DEN]
 
