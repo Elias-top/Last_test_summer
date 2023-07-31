@@ -1,7 +1,7 @@
-﻿string []my_array = {"1234", "1567", "-2", "computer science", "mam", "i", "2444j"};
-//string []result_array = new string [4];
+﻿string []my_array = {"1234", "1567", "-2", "computer science", "mam", "i", "2444j", "Russian", "DEN"};
 
 string []result_array = GetStrArrayLessUserNum(3, my_array);
+
 PrintArrayToConsole(result_array);
 
 static string [] GetStrArrayLessUserNum(int user_num, string[] user_array)
@@ -38,8 +38,8 @@ static void PrintArrayToConsole(string[] array)
             Console.Write(array[array.Length - 1]);
             break;
         }
-        
-        Console.Write($"{array[i]}, ");
+
+        Console.Write($"\"{array[i]}\", ");
     }
     Console.Write("]");
     Console.WriteLine();
